@@ -1,0 +1,23 @@
+.card {
+    height: 450px;
+    background-color: rgba(242, 246, 215, 0.893);
+    width: 400px;
+    border-radius: 3px;
+    border: solid black 1px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+button {
+    width: 50%;
+    height: 25px;
+    background-color: #ffffff;
+    border: 1px solid grey;
+}
+
+
+
+button:hover {
+    background-color: rgb(167, 238, 167);
+}
