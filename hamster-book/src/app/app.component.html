@@ -1,6 +1,7 @@
 <app-header></app-header>
 <div class="flexrow">
 <div class="container">
+    <app-friendbox></app-friendbox>
 <app-info-box *ngFor="let i of [0, 1, 2]" [img]="profileImages[i]" [text]="profileTexts[i]"></app-info-box>
 </div>
 <app-proposals></app-proposals>
