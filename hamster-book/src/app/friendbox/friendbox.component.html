@@ -1,7 +1,11 @@
 
 <div class="standard-card friendrow">
-<div  class="friend-text" *ngFor="let i of [0,1,2,3]">
-    <img class="friend" src="{{ images[i] }}">
-    {{ names[i] }}
+
+    <div *ngIf="fs.names.length === 0">
+        Add some friends!
+    </div>
+<div  class="friend-text" *ngFor="let name of fs.names; let i = index">
+    <img class="friend" src="{{ fs.images[i] }}">
+    {{ name }}
 </div>
 </div>

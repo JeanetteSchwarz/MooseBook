@@ -1,4 +1,5 @@
 <div class="profile-row">
     <img class="miniImage" src="{{ img }}">
-    <p>{{ name }}</p>
+    <p class="namebox">{{ name }}</p>
+    <a *ngIf="canFollow" (click)="fs.addFriend(name, img); canFollow=false">Follow</a>
 </div>

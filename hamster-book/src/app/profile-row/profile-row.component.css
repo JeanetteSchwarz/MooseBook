@@ -3,7 +3,6 @@
     align-items: center;
 }
 
-
 .miniImage {
 width: 60px;
    height: 60px;
@@ -12,4 +11,19 @@ width: 60px;
    object-position: right;
    padding-right: 4px;
    padding-bottom: 4px;
+   }
+
+   .namebox {
+    font-size: 12px;
+    width: 70px;
+   }
+
+   a {
+    font-size: 12px;
+    cursor: pointer;
+    color: blue;
+   }
+
+   a:hover {
+    text-decoration: underline;
    }

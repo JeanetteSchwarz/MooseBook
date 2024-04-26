@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AddfriendService } from '../addfriend.service';
 
 @Component({
   selector: 'app-friendbox',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class FriendboxComponent {
 
-names = ['Susi', 'Sven', 'Ingo', 'Monika', 'Anette']
-images = ['/assets/img/elk4.jpg', '/assets/img/elk5.jpg', '/assets/img/elk6.jpg', '/assets/img/elk3.jpg', '/assets/img/elk2.jpg']
+  constructor(public fs: AddfriendService) {}
+
 
 }
